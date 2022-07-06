@@ -20,11 +20,11 @@
 
 ## Built With
 
-- python 3.6
-- [pom](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
-- [selenium](https://github.com/SeleniumHQ/selenium)
-- [pytest](https://github.com/pytest-dev/pytest)
-- [pytest-html](https://github.com/pytest-dev/pytest-html)
+- Python 3.6
+- [POM](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
+- [Selenium](https://github.com/SeleniumHQ/selenium)
+- [Pytest](https://github.com/pytest-dev/pytest)
+- [Pytest-html](https://github.com/pytest-dev/pytest-html)
 
 
 
