@@ -1,0 +1,11 @@
+﻿[2022-07-06 17:18:26,763] browser - open_browser - INFO - Selected chrome browser.
+[2022-07-06 17:18:28,341] browser - open_browser - INFO - Starting chrome browser.
+[2022-07-06 17:18:28,716] base_page - send_keys - INFO - Input Google into /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input
+[2022-07-06 17:18:29,516] base_page - send_keys - INFO - Input  into /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input
+[2022-07-06 17:18:29,797] base_page - send_keys - INFO - Input Firefox into /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input
+[2022-07-06 17:18:30,558] base_page - send_keys - INFO - Input  into /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input
+[2022-07-06 17:18:30,841] base_page - send_keys - INFO - Input Edge into /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input
+[2022-07-06 17:18:31,120] base_page - focus - INFO - Focus on /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input element
+[2022-07-06 17:18:31,975] base_page - click - INFO - Click /html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[5]/center/input[1] element
+[2022-07-06 17:18:32,310] base_page - get_screenshot - INFO - Save screenshot D:\PythonPractice\python_pom/reports//images/search_page.png
+[2022-07-06 17:18:32,310] browser - close_browser - INFO - Close chrome browser.
