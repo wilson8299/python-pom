@@ -1,6 +1,6 @@
 # python-pom
 
-使用 pytest 、Selenium 和 Page Object Model，建立物件導向的 Web UI 測試模式，增加腳本的可讀性和可靠性，降低相同程式碼的編寫，方便後續的管理與維護。
+使用 Pytest 、Selenium 和 Page Object Model，建立物件導向的 Web UI 測試模式，增加腳本的可讀性和可靠性，降低相同程式碼的編寫，方便後續的管理與維護。
 <p align="center" width="100%">
     <img src="https://uc9caf355a131a56c23d445dc189.previews.dropboxusercontent.com/p/thumb/ABkjxW7_NK5ajW4ZEjW8vuLGZZU1jrYtjBBNlECsD4dGHE8wkl0NrEtRzRdPI0BStA3Qys6gVZs60CUJsr5CwsPaVVxZ9Wq0qOXW5_LvZeI_YGysBRTwtZDgkcJy5UjRgoeV_5HzU4e5Gvmd7V1khfcotQmGieHIQzQHRyNNGxDd0xyJMNLDkOZcGTwQmQn2GfxvTAs6a8ERHUxDjBFt3_ItS4QG-TMCIqhuahTAoNEUvryUBnZCZ8dc49_cwlsCClSa40UJCboW3WZwzsieRO96pFkQgZzmlnMJMlWJWTqN8CRixCMDTogckamV3TAxe_xSI2bdmpdvgN-QxysrEeDuOW80WtXnPvzjyzQbNDnWlKCFUjghqvkzQdBjYnRkR56mq9Umyjq2kqEQfPPx29-z0Me_KRjZ6IDmiw0rUms-9g/p.gif" alt="example" width="85%"/>
 </p>
