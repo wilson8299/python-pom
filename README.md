@@ -2,7 +2,7 @@
 
 使用 Pytest 、Selenium 和 Page Object Model，建立物件導向的 Web UI 測試模式，增加腳本的可讀性和可靠性，降低相同程式碼的編寫，方便後續的管理與維護。
 <p align="center" width="100%">
-    <img src="https://uc9caf355a131a56c23d445dc189.previews.dropboxusercontent.com/p/thumb/ABkjxW7_NK5ajW4ZEjW8vuLGZZU1jrYtjBBNlECsD4dGHE8wkl0NrEtRzRdPI0BStA3Qys6gVZs60CUJsr5CwsPaVVxZ9Wq0qOXW5_LvZeI_YGysBRTwtZDgkcJy5UjRgoeV_5HzU4e5Gvmd7V1khfcotQmGieHIQzQHRyNNGxDd0xyJMNLDkOZcGTwQmQn2GfxvTAs6a8ERHUxDjBFt3_ItS4QG-TMCIqhuahTAoNEUvryUBnZCZ8dc49_cwlsCClSa40UJCboW3WZwzsieRO96pFkQgZzmlnMJMlWJWTqN8CRixCMDTogckamV3TAxe_xSI2bdmpdvgN-QxysrEeDuOW80WtXnPvzjyzQbNDnWlKCFUjghqvkzQdBjYnRkR56mq9Umyjq2kqEQfPPx29-z0Me_KRjZ6IDmiw0rUms-9g/p.gif" alt="example" width="85%"/>
+    <img src="https://imgur.com/oluUCBS.gif" alt="example" width="85%"/>
 </p>
 
 
@@ -148,5 +148,5 @@ class TestSearch:
 pytest-html 生成報告，也可以自行替換成其他報告庫或透過 pytest hook 自定義報告。 
 
 <p align="center" width="100%">
-    <img src="https://ucf9d94b9e1e68b4a705c1cf0d76.previews.dropboxusercontent.com/p/thumb/ABnibgmOHOefqD3BlgcmyM3mK74x-Ve-8y2Biiui_cbbkYJtYqeWToKt2e-lu4Ut-LUcIOIUbBJsgHAfOcYOHm8VY1N9hM3S8WfSq2x8CN5lhU71eXE-PCQ9cpRJeDPoAn5zSYSRRwKpJvx8OBxRvS5YR_SvXTjldXafPGY_5rRgxzPVZgoVF8MBqwxmuRSy5i_-Ve6NBkdd7O3ljmmS559a3Ac5vhkSHjgL7xpM2GuybUfEtvZcUZDSBjn7D8D_Zk0TrbJVFkiPj2TpgsBis8HSe-jUN3UZ-NCA4e0hh8v1SgSs_1dn0BFaVf23VPMu7eVeP1nO90DzJp_q0w9PZss17WK86bWOVp-va7I6w81aMsHgU2sffyGgedVnwKLLKwggg4-WBQsvHvcF3jgOdPqcV4UANs3fxOjreyE4Gba_0w/p.png" alt="report-image" width="85%"/>
+    <img src="https://imgur.com/yLQfx48.png" alt="report-image" width="85%"/>
 </p>
