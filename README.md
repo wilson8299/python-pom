@@ -51,11 +51,8 @@ File Tree
 ├── data/                       # 測試資料
 ├── logs/                       # 測試日誌
 ├── pages/                      # 制定一系列 Selenium 的基本操作 
-│ ├── base_page.py
-│ └── search_page.py
 ├── reports/                    # 測試報告
 ├── scripts/                    # 測試腳本，關注商業邏輯
-│ └── test_search.py
 ├── utils/
 │ ├── browser.py                # 下載及啟動瀏覽器
 │ ├── logger.py                 # 日誌模組
@@ -93,22 +90,24 @@ elif Global.BROWSER == 'edge':
 每個頁面都有一個 page 檔案，制定一系列 Selenium 的基本操作 。
 
 ````python
-# pages/search_page.py
-class SearchPage(BasePage):
-    search_input = By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input'
-    search_button = By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[5]/center/input[1]'
+# pages/base_page.py
+class BasePage:
+    def __init__(self, driver) -> None:
+        self.driver = driver
+        self.logger = Logger('Page')
+        self.ac = ActionChains(self.driver)
 
-    def __init__(self, driver):
-        BasePage.__init__(self, driver)
+    def get_title(self):
+        return self.driver.title
 
-    def input_content(self, text):
-        self.send_keys(self.search_input, text)
-
-    def focus_searchbar(self):
-        self.focus(self.search_input)
-
-    def click_search_button(self):
-        self.click(self.search_button)
+    def find_element(self, loc):
+        try:
+            element = WebDriverWait(self.driver, 5, 0.5).until(lambda x: x.find_element(loc[0], loc[1]));
+        except Exception as e:
+            self.logger.error(f'Error when find element {loc}')
+            self.logger.exception(e)
+        else:
+            return element
 ````
 
 
