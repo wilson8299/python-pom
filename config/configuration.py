@@ -9,4 +9,4 @@ class Global:
     DATA_DIR = PROJECT_ROOT_DIR + '/data/'
     IMAGE_DIR = REOPRT_DIR + '/images/'
     BROWSER = 'chrome'
-    DATETIME_NOW = datetime.datetime.now().strftime("%Y-%m-%d %M-%H-%S")
+    DATETIME_NOW = datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")

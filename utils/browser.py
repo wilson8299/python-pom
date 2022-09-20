@@ -12,11 +12,9 @@ from config.configuration import Global
 
 class Browser:
     def __init__(self):
-        self.logger = Logger('browser')
+        self.logger = Logger('Browser')
 
     def open_browser(self):
-        self.logger.info(f'Selected {Global.BROWSER} browser.')
-
         if Global.BROWSER == 'chrome':
             options = Options()
             options.add_experimental_option('excludeSwitches', ['enable-logging'])

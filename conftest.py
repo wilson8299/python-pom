@@ -3,6 +3,7 @@ sys.path.append(os.getcwd())
 import pytest
 import os
 from config.configuration import Global
+from utils.logger import Logger
 
 def pytest_addoption(parser):
     group = parser.getgroup("custom-report")
@@ -17,6 +18,11 @@ def pytest_configure(config):
     browser = config.getoption("--browser")
     if browser:
         Global.BROWSER = browser.lower()
+
+@pytest.fixture(scope='function', autouse=True)
+def test_log(request):
+    logger = Logger('Test')
+    logger.info(f'Execute {request.node.nodeid}')
 
 def pytest_html_report_title(report):
     report.title = Global.TEST_TITLE

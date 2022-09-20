@@ -1,0 +1,31 @@
+﻿[2022-09-20 14:11:13,744] Browser - open_browser - INFO - Starting chrome browser.
+[2022-09-20 14:11:13,744] Test - test_log - INFO - Execute scripts/test_alert.py::TestAlert::test_alert
+[2022-09-20 14:11:16,327] Test - test_log - INFO - Execute scripts/test_alert.py::TestAlert::test_confirm_ok
+[2022-09-20 14:11:16,605] Test - test_log - INFO - Execute scripts/test_alert.py::TestAlert::test_confirm_cancel
+[2022-09-20 14:11:16,869] Test - test_log - INFO - Execute scripts/test_alert.py::TestAlert::test_prompt_message
+[2022-09-20 14:11:17,137] Browser - close_browser - INFO - Close chrome browser.
+[2022-09-20 14:11:20,775] Browser - open_browser - INFO - Starting chrome browser.
+[2022-09-20 14:11:20,775] Test - test_log - INFO - Execute scripts/test_blank.py::TestBlank::test_open_correct_page
+[2022-09-20 14:11:23,539] Browser - close_browser - INFO - Close chrome browser.
+[2022-09-20 14:11:27,201] Browser - open_browser - INFO - Starting chrome browser.
+[2022-09-20 14:11:27,201] Test - test_log - INFO - Execute scripts/test_fileupload.py::TestFileUpload::test_set_select_input_value_use_sendkeys
+[2022-09-20 14:11:29,788] Test - test_log - INFO - Execute scripts/test_fileupload.py::TestFileUpload::test_set_select_input_use_window
+[2022-09-20 14:11:31,582] Test - test_log - INFO - Execute scripts/test_fileupload.py::TestFileUpload::test_submit
+[2022-09-20 14:11:32,109] Test - test_log - INFO - Execute scripts/test_fileupload.py::TestFileUpload::test_set_drag_drop_upload_use_window
+[2022-09-20 14:11:34,129] Browser - close_browser - INFO - Close chrome browser.
+[2022-09-20 14:11:37,781] Browser - open_browser - INFO - Starting chrome browser.
+[2022-09-20 14:11:37,782] Test - test_log - INFO - Execute scripts/test_iframe.py::TestIframe::test_get_iframe_content_and_main
+[2022-09-20 14:11:41,496] Test - test_log - INFO - Execute scripts/test_iframe.py::TestIframe::test_back_default_content
+[2022-09-20 14:11:41,979] Browser - close_browser - INFO - Close chrome browser.
+[2022-09-20 14:11:45,576] Browser - open_browser - INFO - Starting chrome browser.
+[2022-09-20 14:11:45,576] Test - test_log - INFO - Execute scripts/test_search.py::TestSearch::test_search_content[Google]
+[2022-09-20 14:11:47,055] Test - test_log - INFO - Execute scripts/test_search.py::TestSearch::test_search_content[Firefox]
+[2022-09-20 14:11:48,159] Test - test_log - INFO - Execute scripts/test_search.py::TestSearch::test_search_page_screenshot
+[2022-09-20 14:11:48,562] Browser - close_browser - INFO - Close chrome browser.
+[2022-09-20 14:11:54,603] Browser - open_browser - INFO - Starting chrome browser.
+[2022-09-20 14:11:54,603] Test - test_log - INFO - Execute scripts/test_select.py::TestSelect::test_get_default_text
+[2022-09-20 14:11:57,437] Test - test_log - INFO - Execute scripts/test_select.py::TestSelect::test_set_select_option1_by_index
+[2022-09-20 14:11:57,747] Browser - close_browser - INFO - Close chrome browser.
+[2022-09-20 14:12:01,348] Browser - open_browser - INFO - Starting chrome browser.
+[2022-09-20 14:12:01,348] Test - test_log - INFO - Execute scripts/test_slider.py::TestSlider::test_slide_slider2five
+[2022-09-20 14:12:04,714] Browser - close_browser - INFO - Close chrome browser.
